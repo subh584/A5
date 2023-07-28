@@ -15,9 +15,9 @@ var express = require("express");
 var path = require('path');
 var collegeData = require('./modules/collegeData');
 
-var app = express();
+const app = express();
 const bodyParser = require('body-parser');
-var HTTP_PORT = process.env.PORT || 3000;
+const HTTP_PORT = process.env.PORT || 8080;
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
