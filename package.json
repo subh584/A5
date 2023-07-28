@@ -1,0 +1,15 @@
+{
+  "name": "3",
+  "version": "1.0.0",
+  "description": "Assignment4 for WEB by Subhankar",
+  "main": "server.js",
+  "scripts": {
+    "test": "HelloProfessor",
+    "start": "node server.js"
+  },
+  "author": "Subhankar Dey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
