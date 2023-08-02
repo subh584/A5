@@ -19,7 +19,6 @@ const app = express();
 const bodyParser = require('body-parser');
 const HTTP_PORT = 8080;
 
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 const exphbs = require('express-handlebars');
@@ -160,7 +159,7 @@ collegeData
   .initialize()
   .then(() => {
     app.listen(HTTP_PORT, () => {
-      console.log("Server listening on port: " + HTTP_PORT);
+      console.log("Server listening on port: " +HTTP_PORT);
     });
   })
   .catch((err) => {
